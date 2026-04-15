@@ -3,14 +3,14 @@
 import { useEffect, useState } from "react";
 import { FadeUp } from "@/components/motion/fade-up";
 import { SectionHeading } from "@/components/common/section-heading";
-import { test2, type Experience  } from "@/lib/data";
+import { test2, type Test } from "@/lib/data";
 import { test } from "@/lib/data";
 
 function ExperienceModal({
   experience,
   onClose,
 }: {
-  experience: Experience | null;
+  experience: Test | null;
   onClose: () => void;
 }) {
   useEffect(() => {
@@ -84,7 +84,7 @@ function ExperienceModal({
 }
 
 export function ExperienceSection() {
-  const [selectedExperience, setSelectedExperience] = useState<Experience | null>(
+  const [selectedExperience, setSelectedExperience] = useState<Test | null>(
     null,
   );
 

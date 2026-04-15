@@ -5,12 +5,14 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { Chip } from "@/components/common/chip";
 import { FadeUp } from "@/components/motion/fade-up";
 import { ProjectDetailBlock } from "@/components/projects/project-detail-block";
-import { ProjectShowcaseSlider } from "@/components/projects/project-showcase-slider";
+import {
+  ProjectShowcaseSlider,
+  type ShowcaseItem,
+} from "@/components/projects/project-showcase-slider";
 import { SkillIconGrid } from "@/components/skills/skill-icon-grid";
 import { projectMap } from "@/lib/data";
 
-
-const projectPageShowcases = {
+const projectPageShowcases: Record<string, readonly ShowcaseItem[]> = {
   invenqr: [
     {
       title: "대시보드",

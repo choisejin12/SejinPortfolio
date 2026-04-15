@@ -8,13 +8,15 @@ type ShowcaseItem = {
   title: string;
   image: string;
   description: string;
-  features: string[];
+  features: readonly string[];
 };
 
 type ProjectShowcaseSliderProps = {
-  items: ShowcaseItem[];
+  items: readonly ShowcaseItem[];
   projectTitle: string;
 };
+
+export type { ShowcaseItem };
 
 function ArrowButton({
   direction,
