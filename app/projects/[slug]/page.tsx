@@ -357,7 +357,11 @@ export default async function ProjectDetailPage({
               <ProjectDetailBlock title="📸 페이지별 주요 화면">
                 <ProjectShowcaseSlider
                   projectTitle={project.title}
-                  items={projectPageShowcases[slug as keyof typeof projectPageShowcases] ?? []}
+                  items={[
+                    ...(projectPageShowcases[
+                      slug as keyof typeof projectPageShowcases
+                    ] ?? []),
+                  ]}
                 />
               </ProjectDetailBlock>
             </FadeUp>
