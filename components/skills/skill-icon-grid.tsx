@@ -43,6 +43,7 @@ const skillIconMap: Record<string, string> = {
   "json2csv" : "https://cdn.simpleicons.org/svg/000000",
   "React Native" : "https://cdn.simpleicons.org/react/3674CE",
   "Expo" : "https://cdn.simpleicons.org/expo/3674CE",
+  "JIRA" : "https://cdn.simpleicons.org/jira/3674CE",
 };
 
 export function SkillIconGrid({

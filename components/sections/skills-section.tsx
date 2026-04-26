@@ -59,9 +59,10 @@ const skillCategories: SkillCategory[] = [
     items: [
       { name: "Git", icon: "https://skillicons.dev/icons?i=git" },
       { name: "GitHub", icon: "https://skillicons.dev/icons?i=github" },
-      { name: "Postman", icon: "https://skillicons.dev/icons?i=postman" },
+      { name: "JIRA", icon: "https://skillicons.dev/icons?i=jira" },
       { name: "Figma", icon: "https://skillicons.dev/icons?i=figma" },          
-      { name: "Notion", icon: "https://skillicons.dev/icons?i=notion" },          
+      { name: "Notion", icon: "https://skillicons.dev/icons?i=notion" },
+      { name: "Postman", icon: "https://skillicons.dev/icons?i=postman" },        
     ],
   },
 ];
